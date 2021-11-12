@@ -10,7 +10,9 @@ const subtrairNoTerminal = (w, z) => console.log(w - z)
 exec(somarNoTerminal, 56, 38)
 exec(subtrairNoTerminal, 182, 27)
 
-setInterval(function () {
+//set interval executa de forma repetida, 1 par= func e 2 par = qtd milisegundos 
+
+setInterval(function () {  
     console.log('Exec...')
 }, 1000)
 
